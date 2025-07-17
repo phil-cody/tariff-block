@@ -13,6 +13,7 @@ body {
 .pricing {
 	display: flex;
 	justify-content: space-evenly;
+	max-width: 800px;
 }
 
 .tariff-card {
@@ -28,6 +29,7 @@ body {
 	justify-content: space-between;
 	transform-origin: center;
 	transition: transform 0.5s ease, box-shadow 0.5s ease;
+	height: 300px;
 }
 
 .transform-card.popular {
